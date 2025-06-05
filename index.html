@@ -6,18 +6,30 @@
     <link rel="stylesheet" href="./style.css">
     <title>Portfolio</title>
 </head>
+
 <body>
-    <h1>Portfolio</h1>
-    <h2>Web and Java developer</h2> 
+    <header>
+        <h1>Portfolio</h1>
+        <h2><i>'Web and Java developer'</i></h2> 
+    </header>
 
-    <hr />
+    <!-- TODO: Make content blocks not span the entire window -->
+    <div class="content">
+        <div class="content-block">
+            <h3><a href="https://quidquocode.github.io/html-poster-generator/">Random Poster Generator</a></h3>
+            <img src="./assets/images/random-poster-generator.png" alt="image of the sea with text underneath saying 'that special moment when you canny make the text different but you can make the image different'" width="400px">
+        </div>
 
-    <h3><a href="https://quidquocode.github.io/html-color-vocab/">Colour Vocab</a></h3>
-    <img src="./assets/images/colour-vocab.png" alt="Colours with their associated spanish word" width="200">
+        <div class="content-block">
+            <h3><a href="https://quidquocode.github.io/html-color-vocab/">Colour Vocab</a></h3>
+            <img src="./assets/images/colour-vocab.png" alt="Colours with their associated spanish word" width="200">
+        </div>
+    </div>
 
-    <hr />
-
-    <a href="public/about.html">About Me</a>
-    <a href="public/contact.html">Contact Me</a>
+    <footer>
+        <a href="public/about.html">About Me</a>
+        <a href="public/contact.html">Contact Me</a>
+    </footer> 
 </body>
+
 </html>
